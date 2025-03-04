@@ -1,0 +1,16 @@
+PROJECT_NAME           = "Bank Transactions API"
+PROJECT_NUMBER         = 1.0.0
+OUTPUT_DIRECTORY       = docs
+INPUT                  = internal/ cmd/ docs/mainpage.dox
+RECURSIVE              = YES
+GENERATE_LATEX         = NO
+GENERATE_HTML          = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+VERBATIM_HEADERS       = NO
+USE_MDFILE_AS_MAINPAGE = docs/mainpage.dox 

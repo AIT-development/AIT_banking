@@ -1,0 +1,18 @@
+/**
+@page methods API Methods
+
+@section create Create Transaction
+Creates a new transaction
+
+@section get_by_id Get Transaction by ID
+Retrieves a specific transaction by its ID
+
+@section get_all Get All Transactions
+Retrieves all transactions
+
+@section update Update Transaction
+Updates an existing transaction
+
+@section delete Delete Transaction
+Deletes a transaction
+*/ 

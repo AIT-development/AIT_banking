@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['Документация_20bank_20transactions_20api_3',['Документация Bank Transactions API',['../index.html',1,'']]]
+  ['api_20methods_6',['API Methods',['../methods.html',1,'']]]
 ];

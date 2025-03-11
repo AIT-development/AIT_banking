@@ -24,10 +24,24 @@ func main() {
 
     e := echo.New()
 
+    // @title Create Transaction
+    // @description Creates a new transaction
     e.POST("/transactions", handler.Create)
+
+    // @title Get Transaction by ID
+    // @description Retrieves a specific transaction by its ID
     e.GET("/transactions/:id", handler.GetByID)
+
+    // @title Get All Transactions
+    // @description Retrieves all transactions
     e.GET("/transactions", handler.GetAll)
+
+    // @title Update Transaction
+    // @description Updates an existing transaction
     e.PUT("/transactions/:id", handler.Update)
+
+    // @title Delete Transaction
+    // @description Deletes a transaction
     e.DELETE("/transactions/:id", handler.Delete)
 
     e.Logger.Fatal(e.Start(":8080"))
